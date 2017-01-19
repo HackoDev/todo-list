@@ -1,0 +1,19 @@
+.todoDetails{
+  &__wrap {
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: 56px;
+    bottom: 0;
+  }
+  &__box {
+    width: 40%;
+    margin: 50px auto;
+    padding: 15px;
+  }
+  &__btn {
+    &_delete {
+      float: right;
+    }
+  }
+}

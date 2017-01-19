@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+  width: 100%;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0;
+}
+
+
+
+@import 'components/_toolbar';
+@import 'components/_sidebar';
+@import 'components/_details';

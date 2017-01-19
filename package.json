@@ -20,8 +20,10 @@
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
     "es6-loader": "^0.2.0",
     "es6-promise": "^4.0.5",
+    "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^2.26.0",
     "jsx-loader": "^0.13.2",
     "material-ui": "^0.16.7",
@@ -33,6 +35,7 @@
     "react-webpack-babel": "0.0.2",
     "redux-devtools": "^3.3.2",
     "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
     "webpack": "^1.14.0"
   }
 }

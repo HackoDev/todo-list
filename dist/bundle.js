@@ -65,6 +65,10 @@
 
 	var _app2 = _interopRequireDefault(_app);
 
+	var _main = __webpack_require__(456);
+
+	var _main2 = _interopRequireDefault(_main);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	_reactDom2.default.render(_react2.default.createElement(_app2.default, null), document.getElementById('app'));
@@ -21744,7 +21748,6 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	function TodoListState(state) {
-	  console.log(state);
 	  return { todos: state.todos };
 	}
 
@@ -40531,6 +40534,12 @@
 	};
 
 	module.exports = keyOf;
+
+/***/ },
+/* 456 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
 
 /***/ }
 /******/ ]);
