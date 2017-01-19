@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dedede;
+}
+
+.app {
+  width: 100%;
+}
+
+.sidebar {
+  display: block;
+  position: absolute;
+  top: 56px;
+  bottom: 0;
+  width: 20%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  background-color: rgb(232, 232, 232);
+}
+
+.todoList {
+  padding: 15px 10px;
+}
+
+.toolbar__btn {
+  height: 35px;
+  margin-top: 10px;
+}
+
+.todoList__item {
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  border-radius: 2px;
+  font-family: Roboto, sans-serif;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0;
+}
+
+.todoDetails__wrap {
+  width: 80%;
+  position: absolute;
+  right: 0;
+  top: 56px;
+  bottom: 0;
+}
+
+.todoDetails__box {
+  width: 40%;
+  margin: 50px auto;
+  padding: 15px;
+}
+
+.todoDetails__btn_delete {
+  float: right;
+}
